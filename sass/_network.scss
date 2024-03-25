@@ -1,0 +1,36 @@
+.network {
+    &-heading {
+        max-width: 383px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-image {
+        margin-top: 155px;
+        margin-bottom: 37px;
+    }
+    
+}
+.partner {
+    margin-bottom: 50px;
+    &-container {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 60px;
+    }
+}
+    @media screen and (max-width: 1023px) {
+        .network-image {
+            margin-top: 50px;
+        }
+        .partner-container {
+            gap: 0 20px;
+        }
+    }
+    @media screen and (max-width: 767.98px) {
+    .partner {
+        margin-bottom: 30px;
+    }
+    }
+    
+             
